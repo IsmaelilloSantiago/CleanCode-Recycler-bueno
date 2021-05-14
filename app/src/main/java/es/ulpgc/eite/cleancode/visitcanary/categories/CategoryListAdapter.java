@@ -71,9 +71,10 @@ public class CategoryListAdapter
 
     //holder.contentView.setText(itemList.get(position).content);
     String url = itemList.get(position).content;
-    loadImageFromURL(holder.contentView,url);
+    //loadImageFromURL(holder.contentView,url);
     Uri uri = Uri.parse(url);
     holder.contentView.setImageURI(uri);
+    loadImageFromURL(holder.contentView,url);
     //loadImageFromURL(holder.contentView,itemList.get(position).content);
 
   }

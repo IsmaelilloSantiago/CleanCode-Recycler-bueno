@@ -62,7 +62,15 @@ public class CategoryListActivity
 
     // do some work
     presenter.fetchCategoryListData();
+
+
   }
+
+  /*@Override
+  protected void onRestart() {
+    super.onRestart();
+    presenter.fetchCategoryListData();
+  }*/
 
   @Override
   public void navigateToProductListScreen() {
