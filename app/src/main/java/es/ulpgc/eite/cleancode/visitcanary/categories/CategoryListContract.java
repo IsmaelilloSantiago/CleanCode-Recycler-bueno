@@ -19,9 +19,7 @@ interface CategoryListContract {
     void injectView(WeakReference<View> view);
     void injectModel(Model model);
     //void injectRouter(Router router);
-    void onResume();
-    void onStart();
-    void onRestart();
+
 
     void fetchCategoryListData();
     void selectCategoryListData(CategoryItem item);

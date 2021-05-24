@@ -29,26 +29,7 @@ public class CategoryListPresenter implements CategoryListContract.Presenter {
 //  public CategoryListPresenter(CategoryListState state) {
 //    this.state = state;
 //  }
-  @Override
-    public void onResume() {
-    Log.e(TAG, "onResume()");
 
-    }
-
-  @Override
-  public void onStart() {
-    Log.e(TAG, "onStart");
-    fetchCategoryListData();
-
-  }
-
-
-  @Override
-  public void onRestart() {
-    Log.e(TAG, "onRestart");
-    fetchCategoryListData();
-
-  }
 
   @Override
   public void fetchCategoryListData() {
